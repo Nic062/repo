@@ -1,7 +1,7 @@
 <package>
 	<id>re.frida.server_16.1.1_iphoneos-arm</id>
 	<name>Frida Server 16.1.1</name>
-	<version>16.1.1_iphoneos-arm</version>
+	<version>16.1.1</version>
 	<compatibility>
 		<firmware>
 			<miniOS>14.0</iniOS>
