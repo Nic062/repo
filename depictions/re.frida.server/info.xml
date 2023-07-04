@@ -1,0 +1,23 @@
+<package>
+	<id>re.frida.server_16.1.1_iphoneos-arm</id>
+	<name>Frida Server 16.1.1</name>
+	<version>16.1.1_iphoneos-arm</version>
+	<compatibility>
+		<firmware>
+			<miniOS>14.0</iniOS>
+			<otherVersions>unsupported</otherVersions>
+			<!--
+			for otherVersions, you can put either unsupported or unconfirmed
+			-->
+		</firmware>
+	</compatibility>
+	<dependencies></dependencies>
+	<descriptionlist>
+		<description>Frida Server 16.1.1 - Attention : Pensez à utiliser la même version du client</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<change>Initial release</change>
+	</changelog>
+	<links></links>
+</package>
