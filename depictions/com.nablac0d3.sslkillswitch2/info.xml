@@ -1,0 +1,26 @@
+<package>
+	<id>com.nablac0d3.sslkillswitch2_0.14</id>
+	<name>SSL Kill Switch 2.0</name>
+	<version>0.14</version>
+	<compatibility>
+		<firmware>
+			<miniOS>13.0</miniOS>
+			<otherVersions>unsupported</otherVersions>
+			<!--
+			for otherVersions, you can put either unsupported or unconfirmed
+			-->
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>PreferenceLoader</package>
+	</dependencies>
+	<descriptionlist>
+		<description>Blackbox tool to disable SSL/TLS certificate validation - including certificate pinning</description>
+		<description>Attention : Restart du springboard obligatoire</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<change>Initial release</change>
+	</changelog>
+	<links></links>
+</package>

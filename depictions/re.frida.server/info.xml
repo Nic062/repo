@@ -13,7 +13,8 @@
 	</compatibility>
 	<dependencies></dependencies>
 	<descriptionlist>
-		<description>Frida Server 16.1.1 - Attention : Pensez à utiliser la même version du client</description>
+		<description>Dynamic instrumentation toolkit for developers, reverse-engineers, and security researchers.</description>
+		<description>Attention : Pensez à utiliser la même version du client Frida</description>
 	</descriptionlist>
 	<screenshots></screenshots>
 	<changelog>
