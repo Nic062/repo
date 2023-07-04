@@ -1,0 +1,27 @@
+<package>
+	<id>com.level3tjg.bfdecrypt_1.3.1</id>
+	<name>BFDecrypt</name>
+	<version>1.3.5</version>
+	<compatibility>
+		<firmware>
+			<miniOS>11.0</miniOS>
+			<otherVersions>unsupported</otherVersions>
+			<!--
+			for otherVersions, you can put either unsupported or unconfirmed
+			-->
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>PreferenceLoader</package>
+		<package>applist</package>
+	</dependencies>
+	<descriptionlist>
+		<description>Utility to decrypt App Store apps on jailbroken device</description>
+		<description>After selecting an app from BFdecrypt settings simply open the app from Home Screen to start the decrypting process</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<change>Initial release</change>
+	</changelog>
+	<links></links>
+</package>

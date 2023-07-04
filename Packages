@@ -1,18 +1,50 @@
-Package: re.frida.server
-Name: Frida
-Version: 16.1.1
-Installed-Size: 60080
+Package: com.level3tjg.bfdecrypt
+Version: 1.3.1
 Architecture: iphoneos-arm
-Priority: optional
-Section: Development
-Filename: pool/main/r/re.frida.server/re.frida.server_16.1.1_iphoneos-arm.deb
-Size: 17914116
-SHA256: 4a646adf39011739a2c42ff9d8bebc7a16cc0cc6bce336a9d71717df5d74966b
-SHA1: 00c1c4790e6bba61c3662b4e791a8332cb63f1c0
-MD5sum: ea20899665682ffc624800772622fdac
-Description: Observe and reprogram running programs.
-Homepage: https://frida.re/
+Maintainer: level3tjg <tjaygrantham@gmail.com>
+Depends: firmware (>=11.0), preferenceloader, applist
+Filename: ./debs/com.level3tjg.bfdecrypt_1.3.1_iphoneos-arm.deb
+Size: 176378
+MD5sum: 063f4aa4f0426daa88fec37835c603fd
+SHA1: 32c9f3d09576c90d671c14d41e42f17de4547148
+SHA256: 8ff5b0505cd61d27691b9b8b03b70cda99638c899be1bb6cdd61731859df597e
+Section: System
+Description: bfdecrypt for iOS 11+
+Author: level3tjg <tjaygrantham@gmail.com>
+Depiction: https://level3tjg.me/repo/depictions/?p=com.level3tjg.bfdecrypt
+Name: bfdecrypt
+
+Package: com.nablac0d3.sslkillswitch2
+Version: 0.14-3+debug
+Architecture: iphoneos-arm
+Maintainer: Alban Diquet <nabla.c0d3@gmail.com>
+Installed-Size: 84
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.nablac0d3.sslkillswitch2_0.14.deb
+Size: 7392
+MD5sum: 41ebada26cdb598d0072594208d14921
+SHA1: 2da0a7d75aef0444aabb0c5f5e9a30610edcc1bc
+SHA256: 4cfc2e49e7cda20365ce7d222eacc43202bcd3dcd9107f45869c1b589f7237f8
+Section: Tweaks
+Description: Blackbox tool to disable SSL certificate validation - including certificate pinning - within iOS and OS X Apps.
+Author: Alban Diquet <nabla.c0d3@gmail.com>
+Name: SSL Kill Switch 2
+
+Package: re.frida.server
+Version: 16.1.1
+Architecture: iphoneos-arm
 Maintainer: Ole André Vadla Ravnås <oleavr@nowsecure.com>
-Author: Frida Developers <oleavr@nowsecure.com>
+Installed-Size: 60080
 Conflicts: re.frida.server64
-Depiction: https://nic062.github.io/repo/depictions/?p=com.re.frida.server
+Filename: ./debs/re.frida.server_16.1.1_iphoneos-arm.deb
+Size: 17914116
+MD5sum: ea20899665682ffc624800772622fdac
+SHA1: 00c1c4790e6bba61c3662b4e791a8332cb63f1c0
+SHA256: 4a646adf39011739a2c42ff9d8bebc7a16cc0cc6bce336a9d71717df5d74966b
+Section: Development
+Priority: optional
+Homepage: https://frida.re/
+Description: Observe and reprogram running programs.
+Author: Frida Developers <oleavr@nowsecure.com>
+Name: Frida
+
